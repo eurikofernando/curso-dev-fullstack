@@ -1,0 +1,16 @@
+body {
+    background: #C5CCD9;
+}
+
+p {
+    color:#011526;
+}
+
+.image-principal {
+    width: 200px;
+    border: 4px solid #043959; /* shorthand */
+    border-radius: 48%;
+    margin: 30px;
+    padding: 10px;
+    height: 200px;
+  }

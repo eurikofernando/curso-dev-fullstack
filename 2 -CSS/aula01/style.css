@@ -1,0 +1,14 @@
+body {
+    background: bisque;
+}
+h3 {
+    color: rgb(223, 46, 14);
+}
+
+.foto-principal {
+    width: 200;
+}
+
+#titulo-principal {
+     color: rgb(16, 20, 253)
+}
