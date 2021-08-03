@@ -1,0 +1,21 @@
+/* 
+a {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}*/
+
+body {
+    background: url(https://wallpaperaccess.com/full/2637581.jpg);
+}
+
+ul {
+    background: grey;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
