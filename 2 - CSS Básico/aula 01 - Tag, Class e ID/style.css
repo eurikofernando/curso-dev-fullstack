@@ -1,0 +1,15 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.verde {
+    color: gray
+}
+
+.foto-principal {
+    width: 200px;
+} 
+
+#titulo-pricipal {
+    color: yellow;
+}

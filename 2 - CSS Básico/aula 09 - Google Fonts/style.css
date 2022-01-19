@@ -1,0 +1,29 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.foto-principal {
+    width: 200px;
+    border: 5px solid #f1ebeb; /*shorthand*/
+    border-radius: 50% ;
+    margin: 30px 30px 30px 30px;
+    /* padding: 10px; utilazado para dar o espaçamento interior do objeto */
+    box-shadow: 1px 5px 10px rgb(129 125 125);
+}
+
+h1 {
+    margin-bottom: -4px;
+    letter-spacing: -0.6px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: Italic;
+    color: rgb(63, 60, 60);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
