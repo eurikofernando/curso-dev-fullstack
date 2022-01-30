@@ -1,0 +1,33 @@
+.exemplo {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 10px;
+}
+
+.exemplo1 p.red{
+    color: red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    color: blue;
+}
+
+/* sinal > serve para pegar os filho diretos da div, section ou etc*/
+
+.exemplo2 > p{
+    color: blue;
+}
+/* o + procura o primeiro irmao da div, section ou etc*/ 
+
+.exemplo3 + p {
+    color: red;
+}
+
+/* o simbolo de ~ pega todos os elementos irmaos da div, section ou etc */
+.exemplo4 ~ p {
+    color: green;
+}

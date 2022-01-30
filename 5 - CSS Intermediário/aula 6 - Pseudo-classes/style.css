@@ -1,0 +1,58 @@
+
+a {
+    color: red;
+}
+
+ /* O <hover> serve para fazer como fose uma especie de animação entre o mesma div ou outro elemento que seja */
+a:hover {
+    color: green;
+    font-size: 50px;
+}
+
+a:hover + .caixa {
+    display: block;
+}
+
+/* a tag <visited> deixa o texto ou objeto em si com outra cor apos ser acessado Obs: esses elementos so funcionam para a tag âncora*/
+a:visited {
+    color: yellow;
+}
+
+/*Quando manter o mouse presionado em cima do objeto ou texto em si, ele muda de cor. Logo depois volta ao normal Obs: esses elementos so funcionam para a tag âncora */
+a:active {
+    color: violet;
+}
+
+
+.caixa {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+.caixa:hover {
+    width: 10px;
+    height: 10px;
+    background: yellowgreen;
+}
+
+/*First-child serve para pegar o primeiro filho */
+ul li:first-child {
+    color: red;
+}
+
+/*Last-child serve para o ultimo filho*/
+
+ul li:last-child {
+    color: rgb(41, 125, 202);
+}
+
+.exemplo p:first-child {
+    color: blue;
+}
+
+/* NTH-CHILD escolhe com exatidão o elemento que você quer */
+.exemplo2 p:nth-child(5) {
+    color: orange;
+}

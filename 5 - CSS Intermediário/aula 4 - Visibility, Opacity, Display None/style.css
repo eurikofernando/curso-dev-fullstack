@@ -1,0 +1,17 @@
+body {
+    background-image: url(transferir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    background: gray;
+    padding: 20px;
+    /*visibility: hidden; esconde, porem fica o espaço onde estava */
+    opacity: 0.6;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}

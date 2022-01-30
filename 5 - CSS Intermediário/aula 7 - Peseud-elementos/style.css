@@ -1,0 +1,39 @@
+/* selection serve somente para esses dois parâmetros */
+::selection {
+    color: orchid;
+    background: black;
+}
+
+
+p::first-line {
+    color: orange;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+/* <before> serve para colocar um elemento antes de algum objeto, e nescessario o uso de content: ""; */
+
+h1::before {
+    display: inline-block;
+    content: "";
+    background-image: url(https://www.iconpacks.net/icons/2/free-rocket-icon-3432-thumb.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+/* <after> serve para colocar um elemento depois de algum objeto, e nescessario o uso de content: ""; */
+
+h1::after {
+    display: inline-block;
+    content: "";
+    background-image: url(https://www.iconpacks.net/icons/2/free-rocket-icon-3432-thumb.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin-left: 30px;
+}
